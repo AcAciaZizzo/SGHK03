@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid-Flex Exercise</title>
+    <style>
+      /* Flexbox Styles */
+      .flex-container {
+        /* Create a flex container */
+        display: flex;
+        /* Enable wrapping of flex items */
+        flex-wrap: wrap;
+        /* Distribute flex items evenly with space between them */
+        justify-content: space-evenly;
+      }
+      .flex-item {
+        /* Set background color for flex items */
+        background-color: cornflowerblue;
+        /* Add padding to the flex items */
+        padding: 20px;
+        /* Add margin to the flex items */
+        margin: 20px;
+        /* Set the flex basis for flex items */
+        flex-basis: 20px;
+      }
+      /* Grid Styles */
+      #grid-section {
+        /* Add padding to the grid section */
+        padding: 20px;
+        /* Set the background color of the grid section */
+        background-color: coral;
+      }
+      .grid-container {
+        /* Create a grid container */
+        display: grid;
+        /* Define the number of columns and their sizes */
+        grid-template-columns: repeat(4, 100px);
+        /* Set the gap between grid items */
+        grid-gap: 10px;
+      }
+      .grid-item {
+        /* Set background color for grid items */
+        background-color:aliceblue;
+        /* Add padding to the grid items */
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section id="flexbox-section">
+        <h2>Flexbox Example</h2>
+        <div class="flex-container">
+          <div class="flex-item">Item 1</div>
+          <div class="flex-item">Item 2</div>
+          <div class="flex-item">Item 3</div>
+        </div>
+      </section>
+      <section id="grid-section">
+        <h2>Grid Layout Example</h2>
+        <div class="grid-container">
+          <div class="grid-item">Item 1</div>
+          <div class="grid-item">Item 2</div>
+          <div class="grid-item">Item 3</div>
+          <div class="grid-item">Item 4</div>
+          <div class="grid-item">Item 5</div>
+          <div class="grid-item">Item 6</div>
+          <div class="grid-item">Item 7</div>
+          <div class="grid-item">Item 8</div>
+          <div class="grid-item">Item 9</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

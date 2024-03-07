@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>This is heading 1</h1>
+    <h2>heading 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic corrupti totam est delectus modi, suscipit dicta
+        deserunt, nobis soluta sequi numquam necessitatibus accusantium perspiciatis atque non doloribus aperiam!
+        Quibusdam, nihil. </p>
+    <i>em</i>
+    <em>emphisis</em>
+    <p><u>underline</u></p>
+    <p><s>deleted</s></p>
+    <p><sub>lower</sub></p>
+    <p><sup>upper</sup></p>
+
+
+    <hr>
+    <h2>lists</h2>
+    <h3>ordered lists</h3>
+    <ol>
+        <li>fist item</li>
+        <li>second item</li>
+        <li>third item</li>
+    </ol>
+
+    <h3>unordered lists</h3>
+    <ul>
+        <li>tomato</li>
+        <li>dragon fruit</li>
+        <li>pokemon</li>
+    </ul>
+
+    <h3>definition list</h3>
+    <dl>
+        <dt>html</dt>
+        <dd>hypertext markup language</dd>
+        <dt>css</dt>
+        <dd>cascading style sheets</dd>
+    </dl>
+    <hr>
+
+    <h2>links and anchors</h2>
+    <a href="https://google.com">google</a>
+    <a href="https://google.com" target="_blank">google on another tab</a>
+    <a id="section1"></a>
+    <h2>section one</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam quisquam molestias at adipisci ea facere,
+        iure cum enim quos fuga nam tempore consequatur magnam est magni unde dolor eaque!</p>
+    
+    <a href="#section1"></a>
+
+    <hr>
+    <form action="">
+        <h2>forms</h2>
+        <label for="name">name</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="msg">message</label>
+        <textarea id="msg" name="msg" cols="30" rows="10" required></textarea>
+        <br>
+
+        <label for="coffee">coffee preference</label>
+        <select name="coffee" id="coffee">
+            <option value="unsweetened">unsweetened</option>
+            <option value="withsugar">with sugar</option>
+        </select>
+        <br>
+        <input type="radio" id="option1" name="options" value="option1">
+        <label for="option1">option 1</label>       
+        <input type="radio" id="option2" name="options" value="option2">
+        <label for="option2">option 2</label>
+        <input type="radio" id="option3" name="options" value="option3">
+        <label for="option3">option 3</label>
+        <!-- 用同一个name就是单选，不同name都可以选 -->
+        <br>
+
+        <input type="checkbox" name="check1" id="check1" value="check1">
+        <label for="check1">check 1</label>
+        <input type="checkbox" name="check2" id="check2" value="check2">
+        <label for="check2">check 2</label>
+        <input type="checkbox" name="check3" id="check3" value="check3">
+        <label for="check3">check 3</label>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+
+</html>

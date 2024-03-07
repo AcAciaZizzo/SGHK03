@@ -1,0 +1,37 @@
+
+/* element selector */
+h1 {
+    color:brown
+}
+
+/* class selector */
+.par{
+    background-color: blueviolet;
+}
+
+/* id selector */
+#p1 {
+    color: darkorange;
+}
+
+#p2 {
+    color: red;
+}
+
+#p3 {
+    color: rgb(41, 219, 50);
+}
+
+#p1, #p2 {
+    background-color: cornflowerblue;
+}
+
+/* universal selector */
+*{
+    color: aqua;
+}
+
+/* pseudo class selector */
+#hover:hover{
+    background-color: gold;
+}

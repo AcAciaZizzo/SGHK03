@@ -1,0 +1,26 @@
+div{
+    background-color: aquamarine;
+}
+
+div{
+    background-color: blueviolet;
+}
+
+/* origin */
+p{
+    border: 3px dotted yellow;
+}
+
+/* specificity */
+/* universal < element < class < id */
+p{
+    background-color: brown;
+}
+
+*{
+    background-color: antiquewhite;
+}
+
+#second{
+    color: rgb(30, 183, 210);
+}

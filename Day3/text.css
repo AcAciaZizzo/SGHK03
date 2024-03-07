@@ -1,0 +1,32 @@
+.font {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+.format #bold{
+    font-weight: bold;
+}
+
+.format #italic{
+    font-style: italic;
+}
+
+.alignment{
+    text-align: center;
+}
+
+.spacing{
+    line-height: 5;
+    letter-spacing: 2px;
+}
+
+.shadow {
+    text-shadow: 2px 2px 1px rgba(228, 123, 123, 0.9);
+}
+
+.google {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}

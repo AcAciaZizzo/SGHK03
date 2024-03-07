@@ -1,0 +1,30 @@
+/* .box1{
+    border: 3px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 10px;
+}
+
+.box1{
+    border: 5px double pink;
+} */
+
+.box1{
+    border-bottom: 5px double pink;
+}
+
+.box2{
+    background-color: lightblue;
+    border: 3px solid black;
+    padding: 30px 25px 20px 15px;
+}
+
+.box3{
+    border: 3px solid lightcoral;
+    margin: 50px 30px;
+}
+
+.box3{
+    width: 300px;
+    height: 300px;
+}
