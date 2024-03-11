@@ -42,6 +42,13 @@ function validateForm(){
 
 button.addEventListener("click", addListItem);
 
+function keyCode(event){
+	const x=event.keyCode;
+	if(x==13){
+		addListItem();
+	}
+}
+
 
 //remove task
 taskList.onclick = function(evt){

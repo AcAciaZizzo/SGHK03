@@ -66,11 +66,11 @@ Create a Task Manager using Javascript (Here's the code base for HTML and a simp
     <body>
 		<h1>Task Manager</h1>
 		  <div class="container"> 
-			<!-- <form id="taskForm"> -->
-				<input type="text" id="taskInput" placeholder="Add a task..." />
+			 <form id="taskForm"> 
+				<input type="text" id="taskInput" placeholder="Add a task..." onkeydown="keyCode(event)"/>
 				<button type="submit" id="btn">Add Task</button>
 				<br><span id="inputMsg"></span>
-			<!-- </form> -->
+			 </form> 
 			<ul id="taskList"></ul>
 		</div>
 		<script src="exercise.js"></script>
